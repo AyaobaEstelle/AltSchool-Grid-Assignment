@@ -4,10 +4,12 @@ import Grid from './Grid';
 
 function App() {
   return (
+    <div className='grid-wrapper'>
     <Grid
       numRows={4}
       numCols={2}
     />
+    </div>
   );
 }
 
